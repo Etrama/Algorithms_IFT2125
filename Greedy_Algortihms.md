@@ -1,0 +1,6 @@
+- A greedy algorithm generally has 4 functions:
+    - Solution function (So): Checks whether a particular set of candidates provides a solution to the problem, for instance, do the coins add up to the amount to be paid?
+    - Feasible function (Fe): Checks whether or not it is possible to complete a set by adding further candidates to obtain at least one solution to the problem. Tells us whether or not we should continue searching for a solution / whether it is even possible to find a solution.
+    - Selection function (Se): Checks which of the remaining candidates (not rejected or not yet chosen) is the most promising.
+    - Objective function (O): Gives the value of the solution found, such as the number of coins needed to add up to the amount to be paid. This is an IMPLICIT function and does not show up in the greedy algorithm.
+- There is no going back in a greedy algorithm. NO TAKEBACKS.
